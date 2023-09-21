@@ -1,0 +1,53 @@
+.main {
+    background-color: black;
+}
+
+.customModal{
+    background-color: white;
+    border-radius: 5rem;
+    padding: 1rem;
+    color: black;
+    width: 70% !important;
+} 
+
+.info-left img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 2.5rem;
+    border: 1px solid black;
+    object-fit: cover;
+
+}
+.wrap-img {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+} 
+.wrap-info {
+    margin-left: 1rem;
+}
+.wrap-icon {
+    padding: 0!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    /* border-bottom: 1px solid black; */
+    list-style: none;
+}
+img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.wrap-basic-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+.wrap-info-project {
+    padding: 1rem;
+    border-top: 1px solid black;
+}
