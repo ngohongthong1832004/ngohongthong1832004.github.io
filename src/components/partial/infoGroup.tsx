@@ -1,5 +1,5 @@
 
-
+import "./partial.css"
 
 const InfoGroup:React.FC = () => {
     return (

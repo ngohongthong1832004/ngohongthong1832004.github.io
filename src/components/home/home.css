@@ -1,19 +1,48 @@
 .main {
     background-color: black;
 }
-
 .customModal{
     background-color: white;
-    border-radius: 5rem;
+    border-radius: 2.5rem;
     padding: 1rem;
     color: black;
-    width: 70% !important;
+    /* width: 65% !important; */
 } 
+.info-left {
+    flex:1;
+    border-right:1px dashed black;
+}
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.job {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
 
+.img {
+    width: 100%;
+    height: 100%;
+    margin: 0.5rem 0;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap-info {
+    margin: 0.5rem 0;
+}
 .info-left img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 2.5rem;
+    width: 100%;
+    height: 100%;
+    /* height: 11rem;
+    width: 9rem; */
+    max-height: 11rem;
+    max-width: 9rem;
+    border-radius: 2rem;
     border: 1px solid black;
     object-fit: cover;
 
@@ -22,11 +51,23 @@
     display: flex;
     justify-content: center;
     padding: 1rem;
+    margin: 0 0.5rem;
+    border-bottom: 1px dashed black;
 } 
+.wrap-info-basic ul {
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+
+}
 .wrap-info {
-    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .wrap-icon {
+    width: 100%;
     padding: 0!important;
     display: flex;
     justify-content: space-between;
@@ -46,6 +87,9 @@ img {
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid black;
+}
+.wrap-info-basic {
+    /* padding-top: 1rem; */
 }
 .wrap-info-project {
     padding: 1rem;
