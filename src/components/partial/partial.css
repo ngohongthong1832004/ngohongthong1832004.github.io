@@ -9,3 +9,38 @@
     padding: 0.5rem;
     margin: 0;
 }
+
+
+
+
+/* group-icon */
+.group-icon {
+    padding: 0.5rem 0;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: .5rem;
+    padding: 0;
+}
+.group-icon ul{
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+.group-icon li{
+    margin: 0 0.5rem;
+}
+
+.group-icon img{
+   width: 3rem;
+   height: 3rem;
+   border-radius: 0.5rem;
+   object-fit:contain;
+
+   /* border: 1px solid black; */
+}
