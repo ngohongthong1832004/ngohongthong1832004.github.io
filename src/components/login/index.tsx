@@ -17,7 +17,7 @@ const Login:React.FC = () => {
     return (
         <div className='modalCustom'>
             <Form>
-                <h2 className='mb-4'>LOGIN</h2>
+                <h2 className='titleLogin mb-4'>LOGIN</h2>
                 <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
                     <Form.Label column sm="2">
                     Email

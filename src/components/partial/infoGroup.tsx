@@ -4,15 +4,16 @@ import "./partial.css"
 const InfoGroup:React.FC = () => {
     return (
         <div className='group-info'>
-            <h3>Project</h3>
+            <div className="wrap-img-name">
+                <img className="img-project" src='https://avatars.githubusercontent.com/u/62123206?v=4' alt='avatar' />
+                <h3 className="name-project">Project</h3>
+            </div>
             <ul>
                 <li>
                     <a>hello hello hello hello hello</a>
-                    <img src='https://avatars.githubusercontent.com/u/62123206?v=4' alt='avatar' />
                 </li>
                 <li>
                     <a>hello hello hello hello hello</a>
-                    <img src='https://avatars.githubusercontent.com/u/62123206?v=4' alt='avatar' />
                 </li>
             </ul>
         </div>

@@ -115,8 +115,42 @@ img {
     /* padding-top: 1rem; */
 }
 .wrap-info-project {
-    height: 21rem;
+    height: 20.5rem;
     overflow: auto;
     padding: 1rem;
     border-top: 1px solid black;
+}
+.my-project h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.my-skill {
+    text-align: center;
+    border-bottom: 2px dashed gray;
+}
+
+.my-project {
+
+}
+
+.wrap-img-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 1rem; */
+}
+.img-project {
+    max-width: 3rem;
+    max-height: 3rem;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+.name-project {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 1rem;
 }

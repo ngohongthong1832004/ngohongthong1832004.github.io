@@ -122,9 +122,9 @@ const Home:React.FC = () => {
                         <GroupIcon title = {"Back-end"}  icons = {[images.javaImg, images.springbootImg, images.pyImg, images.djangoImg, images.nodeImg, images.expressImg]} /> 
                         <GroupIcon title = {"Database"}  icons = {[images.mySqlImg, images.mongoImg, images.postgreImg, images.sqlite]} /> 
                         <GroupIcon title = {"More"}  icons = {[images.gitImg, images.dockerImg]} /> 
-
                     </div>
                     <div className='my-project'>
+                        <h2>Một số dự án nho nhỏ</h2>
                         <InfoGroup />
                         <InfoGroup />
                     </div>
