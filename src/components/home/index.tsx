@@ -129,6 +129,9 @@ const Home:React.FC = () => {
                         <InfoGroup />
                     </div>
                 </div>
+                <div className='footer'>
+                    <button className='btn btn-primary customBtn'>Download CV</button>
+                </div>
             </div>
         </div>
     )

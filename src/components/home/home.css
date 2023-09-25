@@ -133,9 +133,13 @@ img {
     border-bottom: 2px dashed gray;
 }
 
-.my-project {
-
-}
+.group-info {
+    border-bottom: 1px dashed gray;
+ }
+ 
+ .group-info:last-child {
+    border-bottom:none;
+ }
 
 .wrap-img-name {
     display: flex;
@@ -154,3 +158,23 @@ img {
     font-weight: bold;
     margin: 0 1rem;
 }
+
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer .customBtn{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.5rem;
+    margin: 0.5rem;
+}
+
+
