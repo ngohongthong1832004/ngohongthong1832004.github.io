@@ -1,7 +1,16 @@
 
 import "./partial.css"
 
-const InfoGroup:React.FC = () => {
+type Props = {
+    name: string,
+    link: string,
+    img: string,
+    text: string
+}
+
+
+
+const InfoGroup:React.FC= () => {
     return (
         <div className='group-info'>
             <div className="wrap-img-name">

@@ -1,0 +1,153 @@
+[        {
+            "name" : "App chatRunTime with firebase:",
+            "image" : "",
+            "link-demo" : "https://supercuifchat.vercel.app",
+            "front-end" : {
+                "tech" : "ReactJS",
+                "link" : "https://github.com/ngohongthong1832004/chatRuntime-with-firebase",
+                "func" : "Front-end được viết bằng ReactJS"
+            },
+            "back-end" : {
+                "tech" : "Firebase",
+                "link" : "",
+                "func" : "Back-end được viết bằng Firebase"
+            },
+            "database" : {
+                "tech" : "Realtime Database",
+                "link" : "",
+                "func" : ""
+            },
+            "descriptions" : "Log in with Google, chat realtime with firebase"
+        },
+        {
+            "name" : "App Todo with Localstograte",
+            "image" : "",
+            "link-demo" : "https://todoapp-sigma-woad.vercel.app",
+            "front-end" : {
+                "tech" : "ReactJS + Redux toolkit+ Localstograte",
+                "link" : "https://github.com/ngohongthong1832004/React-Redux-Local-Session-Storage-",
+                "func" : "Front-end được viết bằng ReactJS"
+            },
+            "back-end" : {
+                "tech" : "Firebase",
+                "link" : "",
+                "func" : "Back-end được viết bằng Firebase"
+            },
+            "database" : {
+                "tech" : "Local stograte",
+                "link" : "",
+                "func" : ""
+            },
+            "descriptions" : "CRUD job, Filter, save in local"
+        },
+        {
+            "name" : "App Game Chill",
+            "image" : "",
+            "link-demo" : "https://mini-game-change-color.vercel.app",
+            "front-end" : {
+                "tech" : "ReactJS",
+                "link" : "https://github.com/ngohongthong1832004/mini-game-change-color",
+                "func" : "Front-end được viết bằng ReactJS"
+            },
+            "back-end" : {
+                "tech" : "",
+                "link" : "",
+                "func" : ""
+            },
+            "database" : {
+                "tech" : "",
+                "link" : "",
+                "func" : ""
+            },
+            "docker" : "docker pull baphongpine/supercuif-game:latest",
+            "descriptions" : "It is simple web but i make it to learn build docker"
+        },
+        {
+            "name" : "App Recommend for relax",
+            "image" : "",
+            "link-demo" : "",
+            "front-end" : {
+                "tech" : "ReactJS",
+                "link" : "https://github.com/ngohongthong1832004/realTime-data-FE",
+                "func" : ""
+            },
+            "back-end" : {
+                "tech" : "Django",
+                "link" : "https://github.com/ngohongthong1832004/realTime-data-BE",
+                "func" : ""
+            },
+            "database" : {
+                "tech" : "Sqlite 3",
+                "link" : "",
+                "func" : ""
+            },
+            "descriptions" : "It can craw data from other website automatic and recommend for relax"
+        },
+        {
+            "name" : "App Calendar note",
+            "image" : "",
+            "link-demo" : "",
+            "front-end" : {
+                "tech" : "Django + MVC",
+                "link" : "https://github.com/ngohongthong1832004/calendar-note",
+                "func" : "Front-end được viết bằng Django templates"
+            },
+            "back-end" : {
+                "tech" : "",
+                "link" : "",
+                "func" : ""
+            },
+            "database" : {
+                "tech" : "Sqlite3 vs postgre",
+                "link" : "",
+                "func" : ""
+            },
+            "docker" : "docker pull baphongpine/supercuif-calendar-note:v1",
+            "descriptions" : "It can CRUD note and send email when you have a note"
+        },
+        {
+            "name" : "3Trees v0",
+            "image" : "",
+            "link-demo" : "",
+            "front-end" : {
+                "tech" : "React + redux + scss ...",
+                "link" : "https://github.com/ngohongthong1832004/React3Trees_front-end",
+                "func" : ""
+            },
+            "back-end" : {
+                "tech" : "NodeJs + express",
+                "link" : "https://github.com/ngohongthong1832004/React3Trees_back-end",
+                "func" : ""
+            },
+            "database" : {
+                "tech" : "MySql",
+                "link" : "",
+                "func" : ""
+            },
+            "descriptions" : "CRUD movie, like, comment, rating, ..."
+        },
+        {
+            "name" : "3Trees v0.5",
+            "image" : "",
+            "link-demo" : "",
+            "front-end" : {
+                "tech" : "React + scss ...",
+                "link" : "https://github.com/ngohongthong1832004/React-Django-Postgresql",
+                "func" : ""
+            },
+            "back-end" : {
+                "tech" : "Django",
+                "link" : "https://github.com/ngohongthong1832004/React-Django-Posgrestql-BE",
+                "func" : ""
+            },
+            "database" : {
+                "tech" : "PostgreSql",
+                "link" : "",
+                "func" : ""
+            },
+            "docker" : [
+                "docker pull baphongpine/film-django-react:front-end",
+                "docker pull baphongpine/film-django-react:back-end"
+            ],
+            "descriptions" : "Authenticated, Authorizations , CRUD movie, like, comment, rating, ..."
+        }]
