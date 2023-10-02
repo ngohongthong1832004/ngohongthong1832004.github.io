@@ -3,11 +3,28 @@ import GroupIcon from '../partial/groupIcon'
 import avatar  from '../../assets/thong.jpg'
 
 import { images } from '../../assets'
+import axios from 'axios'
+import { useState, useEffect } from 'react'
+
+import { ProjectInterfaceProps, ProjectType } from '../interface'
 
 import './home.css'
 
 
 const Home:React.FC = () => {
+
+
+    const [data, setData] = useState<ProjectInterfaceProps | null>(null)
+    useEffect(() => {
+        const getData = async () => {
+            const data = await axios.get('https://raw.githubusercontent.com/ngohongthong1832004/my-img/master/projects.json')
+            setData(data)
+        }
+        getData()
+    }, [])
+
+    // console.log(data)
+
     return (
         <div className = "main">
             <div className='customModal container-sm'>
@@ -125,8 +142,11 @@ const Home:React.FC = () => {
                     </div>
                     <div className='my-project'>
                         <h2>Một số dự án nho nhỏ</h2>
-                        <InfoGroup />
-                        <InfoGroup />
+                        {
+                            data && data.data?.map((project: ProjectType , index: number) => {
+                                return <InfoGroup key={index} dataProject= {project}/>
+                            })
+                        }
                     </div>
                 </div>
                 <div className='footer'>
