@@ -9,6 +9,7 @@ export type ProjectType = {
     image: string,
     name : string,
     descriptions : string,
+    docker : string,
     ["link-demo"] : string,
     ["front-end"] : ParttenType,
     ["back-end"] : ParttenType,
