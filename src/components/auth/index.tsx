@@ -1,29 +1,31 @@
+import {Row, Form, Col} from 'react-bootstrap'
+
 import './auth.css'
 
 
 const Auth:React.FC = ()  => {
     return (
         <div>
-            <h1>Auth</h1>
-            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/lgfv3WFVt0I?si=2z_FTpPbTsOSc54_" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
-            {/* <div className="dmp_VideoView ">
-                <video 
-                    id="dmp_Video" 
-                    // playsinline="" 
-                    webkit-playsinline="" 
-                    x-webkit-airplay="allow" 
-                    src="https://www.dailymotion.com/2902471a-8068-4e2f-b57f-523d065fd199"
-                ></video>
-                <iframe 
-                    id="dmp_ima-frame-sdk" 
-                ></iframe>
-                
-            </div>
+            <Form>
+                <h2 className='titleLogin mb-4'>LOGIN</h2>
+                <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
+                    <Form.Label column sm="2">
+                    Email
+                    </Form.Label>
+                    <Col sm="10">
+                    <Form.Control type="email" placeholder="email" />
+                    </Col>
+                </Form.Group>
 
-            <p>https://megacloud.tv/embed-1/e-1/9oXtUpvDZjww?z=</p> */}
-
-
-
+                <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
+                    <Form.Label column sm="2">
+                    Password
+                    </Form.Label>
+                    <Col sm="10">
+                    <Form.Control type="password" placeholder="Password" />
+                    </Col>
+                </Form.Group>
+            </Form>
         </div>
     )
 }

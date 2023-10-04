@@ -104,7 +104,7 @@
     padding: 0 0.5rem;
 }
 img {
-    width: 2.5rem;
+    width: 8rem;
     height: 2.5rem;
 }
 .wrap-basic-info {
@@ -148,10 +148,12 @@ img {
     /* padding: 1rem; */
 }
 .img-project {
-    max-width: 3rem;
+    max-width: 8rem;
     max-height: 3rem;
     object-fit: contain;
     margin-right: 1rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
 }
 .name-project {
     font-size: 1.2rem;
@@ -175,6 +177,10 @@ img {
     cursor: pointer;
     font-size: 0.5rem;
     margin: 0.5rem;
+}
+.customBtn a {
+    color: white;
+    text-decoration: none;
 }
 
 

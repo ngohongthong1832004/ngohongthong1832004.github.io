@@ -9,6 +9,7 @@ import { useState, useEffect } from 'react'
 import { ProjectInterfaceProps, ProjectType } from '../interface'
 
 import './home.css'
+import { Link } from 'react-router-dom'
 
 
 const Home:React.FC = () => {
@@ -150,7 +151,9 @@ const Home:React.FC = () => {
                     </div>
                 </div>
                 <div className='footer'>
-                    <button className='btn btn-primary customBtn'>Download CV</button>
+                    <button className='btn btn-primary customBtn'>
+                        <Link to='public/Ngo-Hong-Thong-TopCV.vn-041023.174442.pdf' target="_blank" download>Download CV</Link>
+                    </button>
                 </div>
             </div>
         </div>
