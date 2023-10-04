@@ -152,7 +152,7 @@ const Home:React.FC = () => {
                 </div>
                 <div className='footer'>
                     <button className='btn btn-primary customBtn'>
-                        <Link to='public/Ngo-Hong-Thong-TopCV.vn-041023.174442.pdf' target="_blank" download>Download CV</Link>
+                        <Link to='./Ngo-Hong-Thong-TopCV.vn-041023.174442.pdf' target="_blank" download>Download CV</Link>
                     </button>
                 </div>
             </div>
