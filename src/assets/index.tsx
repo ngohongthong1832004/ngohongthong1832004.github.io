@@ -16,6 +16,10 @@ import springbootImg from './springboot.png';
 import expressImg from './express2.jpg';
 import djangoImg from './django.png';
 import sqlite from './sqlite.jpg';
+import CV from './Ngo-Hong-Thong-TopCV.vn-041023.174442.pdf'
+
+export const CVLink = CV;
+
 
 export const  images = {
     cssImg,

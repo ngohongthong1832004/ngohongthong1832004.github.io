@@ -7,9 +7,11 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 
 import { ProjectInterfaceProps, ProjectType } from '../interface'
+// import {DownloadButton} from './download'
 
 import './home.css'
 import { Link } from 'react-router-dom'
+import { CVLink } from '../../assets'
 
 
 const Home:React.FC = () => {
@@ -137,7 +139,7 @@ const Home:React.FC = () => {
                 <div className='wrap-info-project'>
                     <div className='my-skill'>
                         <GroupIcon title = {"Front-end"}  icons = {[images.htmlImg, images.cssImg, images.jsImg, images.tsImg, images.sassImg, images.reactImg]} /> 
-                        <GroupIcon title = {"Back-end"}  icons = {[images.javaImg, images.springbootImg, images.pyImg, images.djangoImg, images.nodeImg, images.expressImg]} /> 
+                        <GroupIcon title = {"Back-end"}  icons = {[ images.pyImg, images.djangoImg, images.nodeImg, images.expressImg]} /> 
                         <GroupIcon title = {"Database"}  icons = {[images.mySqlImg, images.mongoImg, images.postgreImg, images.sqlite]} /> 
                         <GroupIcon title = {"More"}  icons = {[images.gitImg, images.dockerImg]} /> 
                     </div>
@@ -152,7 +154,8 @@ const Home:React.FC = () => {
                 </div>
                 <div className='footer'>
                     <button className='btn btn-primary customBtn'>
-                        <Link to='./Ngo-Hong-Thong-TopCV.vn-041023.174442.pdf' target="_blank" download>Download CV</Link>
+                        <Link to={CVLink} target="_blank" download>Download CV</Link>
+                        {/* <DownloadButton /> */}
                     </button>
                 </div>
             </div>
