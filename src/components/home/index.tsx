@@ -154,7 +154,8 @@ const Home:React.FC = () => {
                 </div>
                 <div className='footer'>
                     <button className='btn btn-primary customBtn'>
-                        <Link to={CVLink} target="_blank" download>Download CV</Link>
+                        {/* <Link to={CVLink} target="_blank" download>Download CV</Link> */}
+                        <a href = "public/pine.pdf" download target='_blank' >Download CV</a>
                         {/* <DownloadButton /> */}
                     </button>
                 </div>
