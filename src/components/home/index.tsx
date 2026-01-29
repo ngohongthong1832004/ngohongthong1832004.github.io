@@ -41,7 +41,7 @@ const Home = () => {
                                     className={`role-btn ${activeRole === 'software' ? 'active' : ''}`}
                                     onClick={() => setActiveRole('software')}
                                 >
-                                    Software AI
+                                    AI Engineer
                                 </button>
                             </div>
                             <div className="cv-download">
@@ -63,7 +63,7 @@ const Home = () => {
                                         <path d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                                     </svg>
                                 </a>
-                                <a href="mailto:baphongpine@gmail.com" aria-label="Email">
+                                <a href="mailto:thonghongngo2004@gmail.com" aria-label="Email">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
                                         <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                                     </svg>
@@ -78,6 +78,11 @@ const Home = () => {
                                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                                     </svg>
                                 </a>
+                                <a href="https://ngohongthong.studio/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5H11.153a12.5 12.5 0 0 0-.338-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653a12.5 12.5 0 0 0 .337-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.423c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H11.5v2.923zM11.82 11c.174.782.282 1.623.312 2.5h2.49a6.958 6.958 0 0 0-.656-2.5H11.82zm-1.5-3.5c-.03.877-.138 1.718-.312 2.5h2.49c.365-.767.594-1.61.656-2.5h-2.834zM11.653 5a12.5 12.5 0 0 0 .338 2.5H14.5V5h-2.847zM13.745 4a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933A9.268 9.268 0 0 1 11.91 4h1.835zM8.5 1.077V4H6.145a7.97 7.97 0 0 1 1.468-1.068c.552-1.035 1.218-1.65 1.887-1.855zM5.5 4v2.5H3.153a12.5 12.5 0 0 1 .338-2.5H5.5z"/>
+                                    </svg>
+                                </a>
                             </div>
                             <div className="about-info">
                                 <p className="location">
@@ -90,13 +95,10 @@ const Home = () => {
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                         <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
                                     </svg>
-                                    Industrial University of Ho Chi Minh City (IUH) - Data Science (3.29/4.0)
+                                    Industrial University of Ho Chi Minh City (IUH) - Data Science (3.36/4.0) - TOEIC: 705
                                 </p>
                                 <p className="statement">
-                                    {activeRole == "data" ? 
-                                    "Looking for a data internship to apply my skills in data engineering. Highly self-motivated and adept at self-learning, aiming to contribute and develop in a dynamic setting." 
-                                    : "Looking for a software AI internship to apply my skills in software AI. Highly self-motivated and adept at self-learning, aiming to contribute and develop in a dynamic setting."
-                                    }
+                                    Data Engineer and AI Engineer focused on building scalable data pipelines, real-time streaming systems, and AI-powered analytics solutions. Experienced in Kafka, Spark, CDC architectures, and computer vision systems, with hands-on production experience handling 30TB+ enterprise data workloads.
                                 </p>
                             </div>
                         </div>
@@ -112,11 +114,14 @@ const Home = () => {
                         <div className="experience-card">
                             <div className="experience-info">
                                 <h3>
-                                    AI-Engineer intern
+                                    AI-Engineer
                                     <span className="company">Bluebolt-Software/Back-end</span>
                                     <span className="date">Dec 2024 – Now</span>
                                 </h3>
                                 <ul className="experience-highlights">
+                                    <li>Developing and maintaining a large-scale data mapping system for the CRM THACO AUTO platform.</li>
+                                    <li>Optimizing data pipelines and ETL workflows to process and manage over 30TB of enterprise data, improving performance and scalability for internal analytics and reporting.</li>
+                                    <li>Collaborating with the data engineering team to enhance data models and ensure consistent schema mapping across PostgreSQL, Kafka, and Redis environments.</li>
                                     <li>Collecting data from multiple sources, including web scraping and API integration.</li>
                                     <li>Designing and optimizing APIs to improve website functionality, enhance data retrieval speed, and boost backend performance.</li>
                                     <li>Integrating tools like Kafka to build a scalable data collection and processing system.</li>
@@ -127,7 +132,7 @@ const Home = () => {
                         <div className="experience-card">
                             <div className="experience-info">
                                 <h3>
-                                    Software Engineer Intern
+                                    Software Engineer
                                     <span className="company">IX-Health/Front-end</span>
                                     <span className="date">Mar 2024 – Nov 2024</span>
                                 </h3>
@@ -149,24 +154,39 @@ const Home = () => {
                         {activeRole === 'data' ? (
                             <>
                                 <div className="skill-category">
-                                    <h3>Data Engineering</h3>
+                                    <h3>System</h3>
                                     <ul className="skill-list">
-                                        <li>Apache Spark</li>
-                                        <li>Apache Kafka</li>
-                                        <li>Apache Airflow</li>
                                         <li>Docker</li>
-                                        <li>Python</li>
-                                        <li>Java</li>
+                                        <li>PySpark</li>
+                                        <li>Apache Airflow</li>
+                                        <li>Apache Kafka</li>
+                                        <li>MinIO</li>
+                                        <li>Hive</li>
+                                        <li>Trino</li>
+                                        <li>ClickHouse</li>
                                     </ul>
                                 </div>
                                 <div className="skill-category">
                                     <h3>Databases</h3>
                                     <ul className="skill-list">
+                                        <li>ClickHouse</li>
                                         <li>PostgreSQL</li>
                                         <li>MySQL</li>
                                         <li>MongoDB</li>
-                                        <li>ClickHouse</li>
                                         <li>SQLite</li>
+                                        <li>Hive</li>
+                                    </ul>
+                                </div>
+                                <div className="skill-category">
+                                    <h3>Frameworks/Libraries</h3>
+                                    <ul className="skill-list">
+                                        <li>Django</li>
+                                        <li>FastAPI</li>
+                                        <li>Express</li>
+                                        <li>ReactJs</li>
+                                        <li>Selenium</li>
+                                        <li>BeautifulSoup</li>
+                                        <li>HuggingFace</li>
                                     </ul>
                                 </div>
                             </>
@@ -175,23 +195,36 @@ const Home = () => {
                                 <div className="skill-category">
                                     <h3>AI/ML</h3>
                                     <ul className="skill-list">
-                                        <li>TensorFlow</li>
-                                        <li>PyTorch</li>
-                                        <li>Hugging Face</li>
-                                        <li>Scikit-learn</li>
-                                        <li>Pandas</li>
-                                        <li>NumPy</li>
+                                        <li>Computer Vision</li>
+                                        <li>RAG</li>
+                                        <li>LangGraph</li>
+                                        <li>LLM Integration</li>
+                                        <li>HuggingFace</li>
+                                        <li>TensorFlowJs</li>
                                     </ul>
                                 </div>
                                 <div className="skill-category">
-                                    <h3>Web Development</h3>
+                                    <h3>Frameworks/Libraries</h3>
                                     <ul className="skill-list">
-                                        <li>React</li>
                                         <li>Django</li>
-                                        <li>Node.js</li>
                                         <li>FastAPI</li>
-                                        <li>TypeScript</li>
-                                        <li>HTML/CSS</li>
+                                        <li>Express</li>
+                                        <li>ReactJs</li>
+                                        <li>HuggingFace</li>
+                                    </ul>
+                                </div>
+                                <div className="skill-category">
+                                    <h3>Technologies</h3>
+                                    <ul className="skill-list">
+                                        <li>TensorFlowJs</li>
+                                        <li>Firebase</li>
+                                        <li>Cloudflare</li>
+                                        <li>Socket</li>
+                                        <li>Redux</li>
+                                        <li>Axios</li>
+                                        <li>Tailwinds</li>
+                                        <li>Bootstrap</li>
+                                        <li>Sass</li>
                                     </ul>
                                 </div>
                             </>
@@ -208,6 +241,37 @@ const Home = () => {
                                 <div className="project-card">
                                     <div className="project-info">
                                         <h3>
+                                            Golf Analysis Platform - DATATHON 2025
+                                            <a href="https://github.com/ngohongthong1832004/Golf-Analysis-Platform" target="_blank" rel="noopener noreferrer">GitHub</a>
+                                        </h3>
+                                        <ul className="project-highlights">
+                                            <li>Developed a real-time and offline golf swing analysis system integrating computer vision and AI models for technique evaluation and feedback.</li>
+                                            <li>Implemented live camera processing with YOLO-based golf club detection and MediaPipe Pose skeleton tracking, optimized for high-FPS rendering and mirror feedback mode.</li>
+                                            <li>Built an offline video analysis pipeline combining object detection, pose landmark extraction, and ViVit-based action classification to evaluate swing quality and camera view (back/side).</li>
+                                            <li>Designed a scoring framework (0–10 scale with performance bands) and persisted full analysis results and session history in PostgreSQL.</li>
+                                            <li>Integrated an AI voice assistant with speech-to-text, GPT-based coaching responses, and text-to-speech output for interactive golf technique guidance and personalized training suggestions.</li>
+                                            <li>Role: AI / Computer Vision Engineer</li>
+                                        </ul>
+                                        <div className="project-tools">
+                                            <h4>Tools Used:</h4>
+                                            <div className="tools-list">
+                                                <span className="tool-tag">YOLO</span>
+                                                <span className="tool-tag">MediaPipe Pose</span>
+                                                <span className="tool-tag">ViVit</span>
+                                                <span className="tool-tag">OpenAI API</span>
+                                                <span className="tool-tag">Text-to-Speech</span>
+                                                <span className="tool-tag">Speech-to-Text</span>
+                                                <span className="tool-tag">PostgreSQL</span>
+                                                <span className="tool-tag">OpenCV</span>
+                                                <span className="tool-tag">Python</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="project-card">
+                                    <div className="project-info">
+                                        <h3>
                                             Chatbot-Finacial-Langgraph
                                             <a href="https://github.com/ngohongthong1832004/chatbot-finacial-langgraph" target="_blank" rel="noopener noreferrer">GitHub</a>
                                         </h3>
@@ -215,6 +279,7 @@ const Home = () => {
                                             <li>The core architecture using LangGraph to orchestrate a multi-step reasoning workflow.</li>
                                             <li>The hybrid RAG (Retrieval-Augmented Generation) system that combines FAISS vector store retrieval, SQL database integration, and web search capabilities.</li>
                                             <li>The intelligent decision-making process that determines the best information source.</li>
+                                            <li>Role: AI Engineer</li>
                                         </ul>
                                         <div className="project-tools">
                                             <h4>Tools Used:</h4>
@@ -242,6 +307,7 @@ const Home = () => {
                                         <ul className="project-highlights">
                                             <li>Engineered a fully Docker‑composed data pipeline for real‑time & batch sentiment analysis on social‑media data (YouTube, TikTok, Facebook) using ETL & Streaming architectures.</li>
                                             <li>Orchestrated workflows in Apache Airflow; ingested streaming data via Kafka; performed cleaning & prediction with Spark Structured Streaming and predict with huggingface model; validated outputs with Great Expectations.</li>
+                                            <li>Role: Data Engineer</li>
                                         </ul>
                                         <div className="project-tools">
                                             <h4>Tools Used:</h4>
@@ -269,10 +335,7 @@ const Home = () => {
                                             <a href="https://github.com/ngohongthong1832004/E_Commerce" target="_blank" rel="noopener noreferrer">GitHub</a>
                                         </h3>
                                         <ul className="project-highlights">
-                                            <li>Scraped data from Tiki using Apache Airflow.</li>
-                                            <li>Performed ETL (Extract, Transform, Load) processes with Kafka to process the scraped data.</li>
-                                            <li>Streamed processed data into PostgreSQL using Kafka.</li>
-                                            <li>Configured and maintained PostgreSQL to ensure system stability and performance.</li>
+                                            <li>Built a Dockerized data pipeline to scrape Tiki data with Apache Airflow, process ETL workflows via Kafka, and stream structured data into PostgreSQL.</li>
                                         </ul>
                                         <div className="project-tools">
                                             <h4>Tools Used:</h4>
@@ -330,29 +393,6 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="project-card">
-                                    <div className="project-info">
-                                        <h3>
-                                            Tiki E-Commerce
-                                            <a href="https://github.com/ngohongthong1832004/React-Django-Postgresql" target="_blank" rel="noopener noreferrer">GitHub</a>
-                                        </h3>
-                                        <ul className="project-highlights">
-                                            <li>Scraped data from Tiki using Apache Airflow.</li>
-                                            <li>Performed ETL (Extract, Transform, Load) processes with Kafka to process the scraped data.</li>
-                                            <li>Streamed processed data into PostgreSQL using Kafka.</li>
-                                            <li>Configured and maintained PostgreSQL to ensure system stability and performance.</li>
-                                        </ul>
-                                        <div className="project-tools">
-                                            <h4>Tools Used:</h4>
-                                            <div className="tools-list">
-                                                <span className="tool-tag">Docker</span>
-                                                <span className="tool-tag">Apache Airflow</span>
-                                                <span className="tool-tag">Kafka</span>
-                                                <span className="tool-tag">PostgreSQL</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </>
                         ) : (
                             <>
@@ -468,9 +508,9 @@ const Home = () => {
                     </div>
                 </section>
 
-                {/* Scholarship Section */}
+                {/* Awards Section */}
                 <section className="scholarship-section">
-                    <h2>Achievements</h2>
+                    <h2>Awards</h2>
                     <div className="scholarship-card">
                         <div className="scholarship-info">
                             <h3>
@@ -478,9 +518,9 @@ const Home = () => {
                                     <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
                                     <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
                                 </svg>
-                                Full Scholarship semester - 2024-2025
+                                Consolation Prize — Datathon 2025 (Golf Swing AI Analysis System)
                             </h3>
-                            <p>Industrial University of Ho Chi Minh City (IUH)</p>
+                            <p>Datathon 2025</p>
                         </div>
                     </div>
                 </section>
