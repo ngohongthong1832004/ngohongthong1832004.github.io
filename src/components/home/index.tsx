@@ -46,7 +46,7 @@ const Home = () => {
                             </div>
                             <div className="cv-download">
                                 <a 
-                                    href={activeRole === 'data' ? "/NgoHongThong_0425_DE.pdf" : "/NgoHongThong_0425_SE_AI.pdf"} 
+                                    href={activeRole === 'data' ? "/NgoHongThong_0126_DE.pdf" : "/NgoHongThong_0425_SE_AI.pdf"} 
                                     download 
                                     className="download-btn"
                                 >
